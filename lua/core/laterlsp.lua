@@ -26,7 +26,7 @@ function lspsetup()
 			['<C-Space>'] = cmp.mapping.complete(),
 
 			-- Navigate between snippet placeholder
-			['<C-f>'] = cmp_action.luasnip_jump_forward(),
+			['<Tab>'] = cmp_action.luasnip_jump_forward(),
 			['<C-b>'] = cmp_action.luasnip_jump_backward(),
 
 			-- Scroll up and down in the completion documentation
